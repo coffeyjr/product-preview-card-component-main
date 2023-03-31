@@ -127,7 +127,7 @@ body{
 }
 
 .product-summary {
-    --padding: 2.5rem;
+    --padding: 1.5rem;
     --border-radius: 10px;
     max-width: 46rem;
     display: grid;
