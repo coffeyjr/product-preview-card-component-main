@@ -93,11 +93,19 @@ body{
     opacity: 0.5;
 }
 
+.product-price {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .discounted-price {
     font-family: var(--font-family-producttitle);
     font-weight: var(--fw-bold);
     font-size: var(--fs-title);
     color: var(--clr-darkcyan);
+    align-items: center;
 }
 
 .main-price {
@@ -106,6 +114,7 @@ body{
     font-size: var(--fs-paragraph);
     text-decoration: line-through;
     opacity: 0.5;
+    align-items: center;
 }
 
 .button {
