@@ -59,6 +59,7 @@ body{
     font-family: var(--font-family-default);
     font-size: var(--fs-paragraph);
     background: var(--clr-cream);
+    margin: 1rem;
 }
 
 .description{
@@ -130,6 +131,8 @@ body{
     --border-radius: 10px;
     max-width: 46rem;
     display: grid;
+    overflow: hidden;
+    border-radius: var(--border-radius);
 }
 
 
